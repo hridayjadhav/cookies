@@ -33,3 +33,11 @@ export class AppComponent {
 
 
 }
+
+
+
+//Here first we have to install the cookieService, 
+// npm install ngx-cookies-service
+//and then import it in the TS file. [ import { CookieService } from 'ngx-cookie-service'; ]
+// inject it inside the provider inside the module.ts file ( providers: [CookieService] )
+//and then implement it.
